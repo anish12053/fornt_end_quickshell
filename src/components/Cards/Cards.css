@@ -1,0 +1,128 @@
+/* General Card Styling */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 17vw;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    height: 105px;
+  }
+  
+  /* Card Header */
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .card-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+  }
+
+
+  .card-id {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .profile-pic img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Card Body */
+  .card-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .status-badge {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  
+  .status-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  
+  .card-body{
+    display: flex;
+    align-items: center;
+   text-align: center;
+   
+  }
+  .card-title {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    font-size: 10px;
+    color: #888;
+  }
+  
+
+  
+
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+/* Remove the border-radius for tag */
+.tag {
+  display: inline-block;
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 0; /* Removed rounded corners */
+}
+
+  
+  .tag-placeholder {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .threedot-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .gray-dot {
+    font-size: 14px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
